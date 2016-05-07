@@ -1,0 +1,140 @@
+/*-----------Cabeza Flechas-----------------*/
+.color-prueba{
+	height: 10px;
+	width: 10px;
+	background-color: blue;
+	position: relative;
+	left: 300px;
+	top:500px;
+}
+
+/*Clase flecha hacia arriba*/
+.arrow-up{
+	height: 0px;
+	width: 0px;
+	background-color: transparent;
+	/*border-top: 40px solid red;*/
+	border-right: 40px solid transparent;
+	border-bottom: 60px solid purple;
+	border-left: 40px solid transparent;
+}
+
+.arrow-right {
+    height: 0px;
+    width: 0px;
+    background-color: transparent;
+    border-top: 40px solid transparent;
+    /* border-right: 40px solid blue; */
+    border-bottom: 40px solid transparent;
+    border-left: 60px solid green;
+}
+
+.arrow-left {
+    height: 0px;
+    width: 0px;
+    background-color: transparent;
+    border-top: 40px solid transparent;
+    border-right: 60px solid blue;
+    border-bottom: 40px solid transparent;
+   /* border-left: 40px solid green;*/
+}
+
+.arrow-down{
+	height: 0px;
+	width: 0px;
+	background-color: transparent;
+	border-top: 60px solid red;
+	border-right: 40px solid transparent;
+	/*border-bottom: 60px solid purple;*/
+	border-left: 40px solid transparent;
+}
+
+/*-----------Cuerpo Flechas---------------*/
+.arrow-body{
+	background-color: purple;
+	height: 120px;
+	width: 30px;
+}
+
+.arrow-body-h{
+	background-color: green;
+	width: 120px;
+	height: 30px;
+}
+
+
+/*----------Rotación----------*/
+.diagonal-izquierda{
+-webkit-transform: rotate(45deg);
+}
+
+.diagonal-derecha{
+-webkit-transform: rotate(-45deg);
+}
+
+
+/*---------Posiciones-----------*/
+.centro-flecha{
+	position: fixed;
+	left: 500px;
+	top: 100px;
+}
+
+.centro-cuerpo{
+	position: fixed;
+	left: 525px;
+	top:160px;
+}
+
+.derecha-flecha{
+	position: fixed;
+	left: 870px;
+	top: 400px;	
+}
+
+.derecha-cuerpo{
+	position: fixed;
+	left: 750px;
+	top:425px;
+}
+
+.izquierda-flecha{
+	position: fixed;
+	left: 170px;
+	top: 400px;	
+}
+
+
+.izquierda-cuerpo{
+	position: fixed;
+	left: 210px;
+	top:425px;
+}
+
+.abajo-flecha{
+	position: fixed;
+	left: 500px;
+	top: 720px;
+}
+
+.abajo-cuerpo{
+	position: fixed;
+	left: 525px;
+	top: 600px;
+}
+
+.izquierda-top{
+	position: fixed;
+	top: -250px;
+	left: 500px;
+}
+
+.derecha-top {
+    position: fixed;
+    bottom: 460px;
+    left: -180px;
+}
+.flecha{
+	position: relative;
+	right: 20px;
+}
