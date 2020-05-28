@@ -138,3 +138,7 @@
 	position: relative;
 	right: 20px;
 }
+
+.clase-vacia {
+	display: block;
+}
